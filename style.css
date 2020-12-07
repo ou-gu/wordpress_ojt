@@ -17,6 +17,12 @@
 .menu-tab {
     margin-right: 35px;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-tab a {
+    text-decoration: none;
+    color: black;
 }
 
 .main-photo {

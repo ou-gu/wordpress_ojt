@@ -33,6 +33,19 @@
     z-index: -10;
 }
 
+#slide {
+    width: 640px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#slide img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .small-logo {
     margin-left: 250px;
     margin-top: -560px;

@@ -18,7 +18,7 @@
     margin-right: 35px;
 }
 
-.logo {
+.main-photo {
     position: relative;
     /* この書き方で画像が背景画像になるので文字や写真は普通に白紙と同じで上から書かれるのでにすロゴ写真を左上に持っていく */
     background-image: url(./img/visual_1_pc.png);
@@ -28,7 +28,17 @@
     width: 70%;
     height: 80%;
     margin-left: 250px;
+    z-index: -10;
 }
 
+.small-logo {
+    margin-left: 130px;
+    margin-top: -560px;
+}
 
+.edge-logo {
+    display: flex;
+    float: right;
+    margin-right: 30px;
+    margin-top: 104px;
 }

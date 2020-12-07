@@ -21,9 +21,23 @@
                 </ul>
             </div>
         </header>
-        <div class="logo">
-            <img src="img/visual_1_pc.png" alt="アメリカンビレッジのロゴ写真">
+        <!-- pictureタグを使うと簡単にレスポンシブ対応を使用できる -->
+        <picture class="main-photo">
+            <source srcset="img/visual_1_sp.png" media="(max-width: 767px)" />
+            <img src="img/visual_1_pc.png" alt="アメリカンビレッジの夜景写真" />
+        </picture>
+        <div class="small-logo">
+            <img src="img/logo.png" alt="アメリカンビレッジのロゴ 小">
         </div>
+        <div class="edge-logo">
+            <img src="img/visual_text_pc.png" alt="アメリカンビレッジのロゴ 大">
+        </div>
+        <!-- <div class="main-photo">
+            <img src="img/visual_1_pc.png" alt="アメリカンビレッジの夜景写真">
+            <div class="logo">
+                <img src="img/logo.png" alt="アメリカンビレッジの英文字ロゴ">
+            </div>
+        </div> -->
     </main>
 
 

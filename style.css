@@ -11,34 +11,30 @@
     /* リストの点を外す */
     list-style: none;
     margin-top: 60px;
-    margin-right: 80px;
+    margin-right: 200px;
 }
 
 .menu-tab {
     margin-right: 35px;
+    font-weight: bold;
 }
 
 .main-photo {
     position: relative;
-    /* この書き方で画像が背景画像になるので文字や写真は普通に白紙と同じで上から書かれるのでにすロゴ写真を左上に持っていく */
-    background-image: url(./img/visual_1_pc.png);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    height: 80%;
-    margin-left: 250px;
     z-index: -10;
 }
 
 .small-logo {
-    margin-left: 130px;
+    margin-left: 250px;
     margin-top: -560px;
 }
 
 .edge-logo {
     display: flex;
     float: right;
-    margin-right: 30px;
+    margin-right: 267px;
     margin-top: 104px;
 }

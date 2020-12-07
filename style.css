@@ -1,0 +1,12 @@
+ul {
+    /* 横並びにする */
+    display: flex;
+    /* 右端に寄せる */
+    float: right;
+    /* リストの点を外す */
+    list-style: none;
+}
+
+li {
+    margin-right: 35px;
+}

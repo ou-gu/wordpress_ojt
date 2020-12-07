@@ -1,12 +1,34 @@
-ul {
+.menu-bar {
+    width: 100%;
+    height: 150px;
+}
+
+.menu {
     /* 横並びにする */
     display: flex;
     /* 右端に寄せる */
     float: right;
     /* リストの点を外す */
     list-style: none;
+    margin-top: 60px;
+    margin-right: 80px;
 }
 
-li {
+.menu-tab {
     margin-right: 35px;
+}
+
+.logo {
+    position: relative;
+    /* この書き方で画像が背景画像になるので文字や写真は普通に白紙と同じで上から書かれるのでにすロゴ写真を左上に持っていく */
+    background-image: url(./img/visual_1_pc.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    margin-left: 250px;
+}
+
+
 }

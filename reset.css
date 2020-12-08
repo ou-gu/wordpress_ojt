@@ -128,13 +128,13 @@ a {
     background: transparent;
 }
 
-/ change colours to suit your needs / ins {
+/* change colours to suit your needs */ ins {
     background-color: #ff9;
     color: #000;
     text-decoration: none;
 }
 
-/ change colours to suit your needs / mark {
+/* change colours to suit your needs */ mark {
     background-color: #ff9;
     color: #000;
     font-style: italic;

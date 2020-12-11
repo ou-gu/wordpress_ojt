@@ -19,7 +19,6 @@
         <!-- Navigation -->
         <nav class="nav">
             <div class="navigation container">
-
                 <div class="hidden-menu">
                     <div class="top-nav">
                         <div class="logo">
@@ -29,19 +28,15 @@
                             <i class="bx bx-x"></i>
                         </div>
                     </div>
-
-                    
                     <?php
                         wp_nav_menu( array( 
                             'theme_location' => 'main-menu',
                         ) ); 
                     ?>
-
                 </div>
                 <div class="hamburger">
                     <i class="bx bx-menu"></i>
                 </div>
-
             </div>
         </nav>
     </header>

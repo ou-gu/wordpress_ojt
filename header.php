@@ -20,7 +20,7 @@
         <nav class="nav">
             <div class="navigation container">
 
-                <div class="menu">
+                <div class="hidden-menu">
                     <div class="top-nav">
                         <div class="logo">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
@@ -30,20 +30,12 @@
                         </div>
                     </div>
 
-                    <ul class="nav-list">
-                        <li class="nav-item">
-                            <a href="#home" class="nav-link scroll-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#photospot" class="nav-link">Photo spot</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#accees" class="nav-link scroll-link">Accees</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link scroll-link">Contact</a>
-                        </li>
-                    </ul>
+                    
+                    <?php
+                        wp_nav_menu( array( 
+                            'theme_location' => 'main-menu',
+                        ) ); 
+                    ?>
 
                 </div>
                 <div class="hamburger">

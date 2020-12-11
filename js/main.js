@@ -9,7 +9,7 @@ var swiper = new Swiper('.swiper-container', {
     },
 });
 
-const menu = document.querySelector(".menu");
+const menu = document.querySelector(".hidden-menu");
 const navOpen = document.querySelector(".hamburger");
 const navClose = document.querySelector(".close");
 

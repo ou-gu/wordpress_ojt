@@ -1,6 +1,6 @@
 <footer id="footer" class="footer">
         <div>
-            <h1>Copyright(C)Shinohara.ALL RIGHTS RESERVED</h1>
+            <h1 class="footer-text">Copyright(C)Shinohara.ALL RIGHTS RESERVED</h1>
         </div>
 
     </footer>

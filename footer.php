@@ -5,8 +5,8 @@
 
     </footer>
     <!-- Swiper js -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+    <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 </body>
 
 </html>

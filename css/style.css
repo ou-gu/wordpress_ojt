@@ -84,28 +84,28 @@ li {
     width: 100px;
 }
 
-.nav-list {
+.menu {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.nav-item:not(:last-child) {
-    margin-right: .5rem;
+.menu-item:not(:last-child) {
+    margin-right: 2rem;
 }
 
-.nav-link:link,
-.nav-link:visited {
+.menu-item:link,
+.menu-item:visited {
     padding: 0.8rem 1rem;
     transition: all 300ms ease-in-out;
 }
 
-.nav-link {
+.menu-item {
     display: block;
     text-align: center;
 }
 
-.nav-link.icon {
+.menu-item.icon {
     font-size: 3rem;
 }
 
@@ -117,12 +117,17 @@ li {
     display: none;
 }
 
-.cart-icon {
-    display: none;
+.pc-img {
+    display: none !important;
+}
+
+.sp-img {
+    display: block !important;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 768px) {
-    .menu {
+    .hidden-menu {
         position: fixed;
         top: 0;
         left: -100%;
@@ -133,7 +138,7 @@ li {
         z-index: 100;
     }
 
-    .menu.show {
+    .hidden-menu.show {
         left: 0;
     }
 
@@ -169,14 +174,14 @@ li {
         z-index: 10;
     }
 
-    .nav-link:link,
-    .nav-link:visited {
+    .menu-item:link,
+    .menu-item:visited {
         display: block;
         font-size: 2rem;
         padding: 1rem 0;
     }
 
-    .nav-list {
+    .menu {
         flex-direction: column;
         justify-content: center;
         padding: 1rem 1.6rem;
@@ -192,7 +197,7 @@ li {
         z-index: 4;
     }
 
-    .nav-link.icon {
+    .menu-item.icon {
         display: none;
     }
 }
@@ -262,7 +267,6 @@ li {
 
 .blog .img-cover img {
     height: 100%;
-    object-fit: cover;
 }
 
 .contents {
@@ -270,12 +274,16 @@ li {
 }
 
 .read {
-    position: absolute;
-    right: 20px;
-    bottom: 15px;
+    text-align: right;
 }
 
-.read::after {
+.read-more {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.read-more::after {
     position: absolute;
     bottom: -4px;
     left: 0;
@@ -288,7 +296,7 @@ li {
     transition: transform .3s;
 }
 
-.read:hover::after {
+.read-more:hover::after {
     transform: scale(1, 1);
 }
 
@@ -306,7 +314,16 @@ footer {
         width: 1024px;
         position: relative;
         justify-content: center;
-        margin-top: 6rem;
+        margin: 6rem auto 1rem auto;
+    }
+
+    .pc-img {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    
+    .sp-img {
+        display: none !important;
     }
 
     .main-photo {
